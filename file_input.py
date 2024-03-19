@@ -8,17 +8,17 @@ from Iinput import InputClass
 
 class FileInput(InputClass):
     """
-    Class that heir from InputClass.
     Contains a function that receive a file path and return his content.
     """
-    def __init__(self, file_path):
+
+    def __init__(self, file_path: str):
         """
         Initialization method.
         :param file_path: Path of a file.
         """
         self.file_path = file_path
 
-    def read(self):
+    def read(self) -> str:
         """
         Open the file and read it.
         :return: What the file contains.

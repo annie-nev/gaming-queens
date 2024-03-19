@@ -8,13 +8,12 @@ from Iinput import InputClass
 
 class ConsoleInput(InputClass):
     """
-    Class that heir from InputClass.
-    Function that return a string that takes from console input.
+    Return a string that takes from console input.
     """
 
     def read(self) -> str:
         """
-        Function that gets a variable of string type
+        Gets a variable of string type
         :return: The console_input.
         """
         console_input = input()

@@ -1,5 +1,5 @@
 """
-Purpose:
+Purpose: Create an abstract class.
 Auther: Roza Hadid
 Date: 17.3.2024
 """
