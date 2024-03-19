@@ -3,17 +3,13 @@ Purpose: Implements OutputFormat functions
 Created on Wed Jul 25
 Author: Annie_nev
 """
+from abc import abstractmethod, ABC
 
 
-class OutputFormat:
+class Output(ABC):
     """
     Allows different output formats
     """
-    def __init__(self, data):
-        self.data = data
-
-    def console_output(self):
-        """
-        Prints data to console
-        """
-        print(self.data)
+    @abstractmethod
+    def read(self):
+        pass
