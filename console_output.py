@@ -3,7 +3,7 @@
     Author: Elian
     Date: 19/03/2024
 """
-from IOutout import Output
+from IOutput import Output
 
 
 class ConsoleOutput(Output):
